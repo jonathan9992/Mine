@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi proyecto</title>
+</head>
+<style>
+body {
+    background-color: black;
+}
+
+.estilosDia { 
+    background-color: white;
+}
+
+        h1 {
+            color: red;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 200px;
+            
+        }
+
+        li{
+            float: right;
+            border: greenyellow;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        li a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+        }
+
+        h2{
+            color: white;
+        }
+
+        p {
+            color: white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        h3 {
+            color: cyan;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        h4 {
+            color:yellow;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    </style>
+<body id="ja">
+
+
+    <h1 id="VI">El Universo cinematográfico de marvel</h1>
+
+        <center><img src= "imagenes/marvel.png"> </center>
+
+    <ul>
+        <li style="background-color: green;"><a href="#fase2" >Fase 2</a></li>
+        <li style="background-color: blue;"><a href="#fase1" >Fase 1</a></li>
+        <li style="background-color: blue;"><a href="#fase4" >Fase 4</a></li>
+        <li style="background-color: green;"><a href="#fase3" >Fase 3</a></li>
+        <li style="background-color: darkred;"> <a href="#p3">Próximos estrenos</a></li>
+    </ul>
+<br>
+<br>
+<br>
+<br>
+
+<button onclick="Dia()" style="background-color: blueviolet; color: white;">Chasquear los dedos</button>
+<button onclick="Noche()" style="color: red;">Yo soy Iron Man</button>
+
+<b>
+    <h2>¿Qué es?</h2>
+        <p> El Universo cinematográfico de Marvel es una franquicia de medios y un universo compartido, centrada en una serie de películas de superhéroes producidas independientemente por Marvel Studios. Las películas están basadas en personajes que aparecen en los cómics estadounidenses publicados por Marvel Comics. La franquicia también incluye series de televisión, cortometrajes, series digitales y literatura. El universo compartido, al igual que el Universo Marvel original en los cómics, se estableció mediante cruce de elementos, escenarios, elenco y personajes comunes de la trama.</p>
+  <center>
+    <h3 id="fase1">Fase 1</h3></center>
+    <p>Es la primera parte del Universo Cinematográfico de Marvel y forma parte de la Saga del Infinito. Desde el 2008 hasta el 2012, las películas de la Fase Uno recaudaron $3.811.244.484 billones en todo el mundo. En esta fase fueron 6 películas las que debutaron en el universo</p>
+
+    <center> <h4>Iron Man</h4>
+    <img  src="imagenes/iron man.jpg" width= "150px" height="200px"> </center>
+    <p> <b> La primera entrega del Universo cinematográfico de Marvel. 
+        La trama gira en torno a Tony Stark, un empresario e ingeniero, que construye un exoesqueleto motorizado y se convierte en Iron Man, un superhéroe tecnológicamente avanzado.
+    </b></p> <p> <u>Al 87% le gustó esta película </u></p> <p>Año: 2008</p>
+
+    <center><h4>El increíble Hulk</h4>
+    <img src="imagenes/hulk.jpg" width="150 px" height="200 px"></center>
+    <p> <b> En The Incredible Hulk, se establece un nuevo origen donde Bruce Banner se convierte en Hulk como un peón involuntario en un esquema militar para revitalizar el programa del supersoldado a través de radiación gamma. A lo largo del filme, Banner intenta librarse de Hulk antes de que el General Thaddeus «Thunderbolt» Ross lo capture, pero sus miedos se hacen realidad cuando el soldado Emil Blonsky, hambriento de poder, se convierte en una criatura similar pero más poderosa.
+  </b></p> <p> <u>Al 71% le gustó esta película</u></p> <p>Año: 2009</p>
+
+    <center><h4>Iron Man 2</h4>
+     <img src="imagenes/Iron_Man_2_Poster_Oficial_Internacional.png" width="150 px" height="200 px"></center>
+        <p> <b> Es la tercera entrega del universo cinematográfico de Marvel.Seis meses después de los eventos de Iron Man, Tony Stark se resiste a los llamados del gobierno de los Estados Unidos para entregar la tecnología de Iron Man, al mismo tiempo que combate su salud deteriorada debido al reactor arc en su pecho. Mientras tanto, el malvado científico ruso Ivan Vanko ha desarrollado la misma tecnología y construido armas propias para vengarse de la familia Stark, uniendo fuerzas con el empresario rival de Stark, Justin Hammer, en el proceso.
+            </b></p> <p><u>Al 88% le gustó esta película</u></p> <p>Año: 2010</p>   
+
+     <center><h4>Thor</h4>
+        <img src="imagenes/Thor_-_Portada_Inglés.png" width="150 px" height="200 px"></center>
+         <p> <b> Tras desatar una antigua guerra, el codicioso guerrero Thor es desterrado a la Tierra por su padre para que viva entre los hombres y descubra así el verdadero sentido de la humildad. Allí, sin sus poderes, Thor deberá enfrentarse a las fuerzas más oscuras que su mayor enemigo le enviará desde Asgard.
+              </b></p> <p><u>Al 85% le gustó esta película</u></p> <p>Año:2011</p>
+              
+    <center><h4>Capitán América</h4>
+        <img src="imagenes/captain-ame.jpg" width="150 px" height="200 px"></center>
+        <p> <b> El filme transcurre en su mayor parte durante la Segunda Guerra Mundial, y cuenta la historia de Steve Rogers, un hombre enfermizo de Brooklyn que se transforma en el super soldado Capitán América para ayudar en la guerra. Rogers debe detener a Red Skull, el despiadado jefe de armamento de Adolf Hitler y el líder de una organización que pretende usar un artefacto llamado el «Teseracto» como una fuente de energía para dominar el mundo.
+             </b></p> <p><u>Al 85% le gustó esta película</u></p> <p>Año: 2011</p>
+
+     <center><h4>Los vengadores</h4>
+        <img src="imagenes/The_Avengers_Poster.png" width="150 px" height="200 px"></center>
+        <p> <b>  En The Avengers, Nick Fury, director de la agencia de espionaje S.H.I.E.L.D., recluta a Tony Stark, Steve Rogers, Bruce Banner y Thor para formar un equipo que debe evitar que Loki, hermano de Thor, se apodere de la Tierra.
+        </b></p> <p><u>Al 87% le gustó esta película</u></p> <p>Año: 2012</p>
+           
+    <center><h3 id="fase2">Fase 2</h3></center>
+    <p> La fase comenzó en 2013 con el lanzamiento de Iron Man 3 y concluyó en 2015 con el lanzamiento de Ant-Man.</p>
+
+    <center><h4>Iron Man 3</h4>
+        <img src="imagenes/iron mannn-3.jpg" width="150 px" height="200 px"></center>
+        <p> <b>  En Iron Man 3, Tony Stark lucha con las ramificaciones de los eventos de The Avengers, durante una campaña nacional de terrorismo en los Estados Unidos al mando del misterioso Mandarín.  </b></p> 
+        <p><u>Al 89% le gustó esta película</u></p> <p>Año: 2013</p>
+
+    <center><h4>Thor: Un mundo oscuro</h4>
+     <img src="imagenes/Thor_El_mundo_oscuro-763570829-large.jpg" width="150 px" height="200 px"></center>
+        <p> <b>  Malekith, un enemigo más antiguo que el universo, regresa a la Tierra para cumplir su plan destructor. Thor debe enfrentarse a un rival al que ni siquiera Odín parece poder detener y, desesperado, libera a su hermano Loki para que lo ayude.
+         <p><u>Al 86% le gustó esta película</u></p> <p>Año: 2013</p>
+
+     <center><h4>Capitán América y el soldado del invierno</h4>
+     <img src="imagenes/cap-2.jpg" width="150 px" height="200 px"></center>
+         <p> <b>  Tras los devastadores acontecimientos vividos en Nueva York, el superhéroe vive tranquilamente en Washington D.C., intentando adaptarse al mundo moderno. Sin embargo, cuando un colega de es amenazado, Rogers se ve envuelto en una trama de intrigas.
+             <p><u>Al 86% le gustó esta película</u></p> <p>Año: 2014</p>
+    
+    <center><h4>Guardianes de la galaxia</h4>
+    <img src="imagenes/guardi.jpg" width="150 px" height="200 px"></center>
+     <p> <b> El temerario aventurero Peter Quill, tras robar una misteriosa esfera codiciada por Ronan, un poderoso villano cuyas ambiciones amenazan a todo el universo, se convierte en la presa más codiciada por todos los cazarrecompensas de la galaxia.
+          <p><u>Al 89% le gustó esta película</u></p> <p>Año: 2014</p>
+            
+    <center><h4>Los Vengadores: La era de ultrón</h4>
+     <img src="imagenes/av-2.jpg" width="150 px" height="200 px"></center>
+    <p> <b> Tony Stark quiere lanzar un nuevo programa de paz, pero algo sale mal y acaba creando a Ultrón, un robot que quiere destruir a la humanidad. Thor, Hulk y el resto de los Vengadores deberán juntar sus fuerzas una vez más para luchar contra el robot.
+        <p><u>Al 87% le gustó esta película</u></p> <p>Año: 2015</p>
+
+    <center><h4>Ant Man</h4>
+     <img src="imagenes/antman.jpg" width="150 px" height="200 px"></center>
+     <p> <b> El doctor Hank Pym anuncia que abandona S.H.I.E.L.D. tras descubrir que han tratado de apropiarse de la tecnología de su Ant-Man, que Pym considera altamente peligrosa. Varios años después, Scott Lang sale de prisión tras cumplir tres años de condena por robo.
+           <p><u>Al 89% le gustó esta película</u></p> <p>Año: 2015</p>
+        
+    <center><h3 id="fase3">Fase 3</h3></center>
+        <p> La Fase Tres comenzó con Captain America: Civil War (2016) y concluyó con Spider-Man: Lejos de casa (2019).</p>
+
+    <center><h4>Capitán América: Civil War</h4>
+    <img src="imagenes/capitan-america-civil-war-poster-1551691490.jpg" width="150 px" height="200 px"></center>
+        <p> <b> En Capitán América: Civil War, el desacuerdo sobre la supervisión internacional de los Vengadores los fractura en facciones opuestas, una liderada por Steve Rogers y otra por Tony Stark.
+            <p><u>Al 87% le gustó esta película</u></p> <p>Año: 2016</p>
+
+     <center><h4>Doctor Strange</h4>
+     <img src="imagenes/doc.stra.jpg" width="150 px" height="200 px"></center>
+         <p> <b> En Doctor Strange, el excirujano Stephen Strange aprende las artes místicas después de un accidente de automóvil que termina con su carrera.
+             <p><u>Al 86% le gustó esta película</u></p> <p>Año: 2016</p>
+    
+     <center><h4>Guardianes de la galaxia Vol.2</h4>
+      <img src="imagenes/g-vol2.jpg" width="150 px" height="200 px"></center>
+     <p> <b>Una poderosa raza alienígena contrata a los Guardianes para que protejan sus valiosas baterías de energía, pero, cuando Rocket las roba, los alienígenas envían a sus tropas de combate a vengarse de los Guardianes. Mientras tratan de escapar con vida, intentan resolver el misterio de los verdaderos orígenes de Peter Quill.
+         <p><u>Al 89% le gustó esta película</u></p> <p>Año: 2017</p>
+           
+      <center><h4>Spiderman: de regreso a casa</h4>
+     <img src="imagenes/images.jpg" width="150 px" height="200 px"></center>
+     <p> <b>Peter Parker asume su nueva identidad como Spider-Man y regresa a vivir con su tía después de su aventura con los Vengadores. Al volver, mientras sigue bajo la tutela de Tony Stark, descubre que ha surgido un nuevo y despiadado enemigo que pretende destruir todo lo que ama: el Buitre.
+           <p><u>Al 83% le gustó esta película</u></p> <p>Año: 2017</p>
+      
+    <center><h4>Thor Ragnarok</h4>
+    <img src="imagenes/thor-rag.jpg" width="150 px" height="200 px"></center>
+    <p> <b>Thor está preso en el otro extremo del universo. Necesita regresar a tiempo para evitar que la todopoderosa Hela destruya su mundo, pero para escapar de su confinamiento y evitar el apocalipsis tendrá que vencer antes al increíble Hulk en un torneo de gladiadores.
+         <p><u>Al 87% le gustó esta película</u></p> <p>Año: 2017</p>
+                      
+     <center><h4>Black Panther</h4>
+        <img src="imagenes/black-panth.jpg" width="150 px" height="200 px"></center>
+    <p> <b>T'Challa es coronado rey de Wakanda luego de la muerte de su padre, pero su soberanía es cuestionada por un adversario que planea abandonar las políticas aislacionistas del país e iniciar una revolución mundial.
+        <p><u>Al 90% le gustó esta película</u></p> <p>Año: 2018</p>
+        
+    <center><h4>Avengers: Infinity War</h4>
+        <img src="imagenes/av-inw.jpg" width="150 px" height="200 px"></center>
+    <p> <b>Los superhéroes se alían para vencer al poderoso Thanos, el peor enemigo al que se han enfrentado. Si Thanos logra reunir las seis gemas del infinito: poder, tiempo, alma, realidad, mente y espacio, nadie podrá detenerlo.
+           <p><u>Al 92% le gustó esta película</u></p> <p>Año: 2018</p>
+    
+ <center><h4>Ant Man and the Wasp</h4>
+    <img src="imagenes/antman-wasp.jpg" width="150 px" height="200 px"></center>
+    <p> <b>Scott Lang vuelve a enfundarse el traje de Ant-Man para pelear codo a codo junto con la Avispa. La misión revela a los dos superhéroes un secreto terrible y los enfrenta a su enemigo más poderoso.
+          <p><u>Al 90% le gustó esta película</u></p> <p>Año: 2018</p>
+    
+<center><h4>Captanin Marvel</h4>
+    <img src="imagenes/captain-marv.jpg" width="150 px" height="200 px"></center>
+    <p> <b>La guerrera Vers no recuerda su pasado, el cual vuelve a ella en sueños. A pesar de sus problemas para controlar sus emociones y, con ellas, sus poderes, la Inteligencia Suprema le permite participar en una misión.
+          <p><u>Al 76% le gustó esta película</u></p> <p>Año: 2019</p>
+          
+<center><h4>Avengers Endgame</h4>
+    <img src="imagenes/aven-enda.jpg" width="150 px" height="200 px"></center>
+    <p> <b>Después de los eventos devastadores de "Avengers: Infinity War", el universo está en ruinas debido a las acciones de Thanos, el Titán Loco. Con la ayuda de los aliados que quedaron, los Vengadores deberán reunirse una vez más para intentar detenerlo y restaurar el orden en el universo de una vez por todas.
+          <p><u>Al 94% le gustó esta película</u></p> <p>Año: 2019</p>
+
+ <center><h4>Spiderman: Far from home</h4>
+<img src="imagenes/Spider_Man_Far_From_Home_-_Póster_EEUU.png" width="150 px" height="200 px"></center>
+ <p> <b>Peter Parker decide pasar unas merecidas vacaciones en Europa junto a MJ, Ned y el resto de sus amigos. Sin embargo, Peter debe volver a ponerse el traje de Spider-Man cuando Nick Fury le encomienda una nueva misión: frenar el ataque de unas criaturas que están causando el caos en el continente.
+      <p><u>Al 86% le gustó esta película</u></p> <p>Año: 2019</p>
+
+<center><h3 id="fase4">Fase 4</h3></center>
+ <p> Es la primera fase de la franquicia que incluye series de televisión, con Marvel Studios desarrollando varias series de eventos para el servicio de transmisión Disney +, además de los largometrajes que ya estaba listo para producir. La Fase Cuatro comenzó con la serie WandaVision , que se estrenó en enero de 2021, mientras que la primera película teatral de esta fase esBlack Widow , que fue lanzado en julio de 2021 por Walt Disney Studios Motion Pictures . 
+ </p>
+
+ <center><h4>WandaVision</h4>
+<img src="imagenes/wnada.jpg" width="150 px" height="200 px"></center>
+    <p> <b>Tres semanas después del final de Avengers: Endgame,​ Wanda Maximoff y Visión están viviendo una vida de ensueño en las afueras, en la pequeña ciudad de Westview (Nueva Jersey), mientras tratan de ocultar sus poderes. Pero a medida que pasan por nuevas décadas y cambian de escenarios televisivos, la pareja empieza a sospechar que algo no va bien.
+        <p><u>Al 93% le gustó este programa de TV</u></p> <p>Año 2021</p>
+
+ <center><h4>Falcon and the winter soldier</h4>
+ <img src="imagenes/The_Falcon_and_the_Winter_Soldier_-_Póster_primera_temporada_2.png" width="150 px" height="200 px"></center>
+ <p> <b>Seis meses después de recibir el escudo de parte del Capitán América al final de Avengers: Endgame, Sam Wilson se une a Bucky Barnes en una aventura alrededor del mundo que pone a prueba sus habilidades y su paciencia.
+      <p><u>Al 92% le gustó este programa de TV</u></p> <p>Año 2021</p>
+
+ <center><h4>Black Widow</h4>
+ <img src="imagenes/black-wid.jpg" width="150 px" height="200 px"></center>
+<p> <b>Una peligrosa conspiración, relacionada con su pasado, persigue a Natasha Romanoff, también conocida como Viuda Negra. La agente tendrá que lidiar con las consecuencias de haber sido espía, así como con las relaciones rotas, para sobrevivir.
+    <p><u>Al 88% le gustó esta película</u></p> <p>Año 2021</p>
+
+<center><h4>Loki</h4>
+<img src="imagenes/kk-1-3.jpg" width="150 px" height="200 px"></center>
+ <p> <b>La serie se centra en el Loki de 2012, el cual es llevado ante la misteriosa organización llamada Autoridad de Variación Temporal después de robar el Teseracto durante los eventos de Avengers: Endgame (2019) y se le da a elegir enfrentarse a la eliminación de la realidad por su imprudencia o ayudar contra una amenaza mayor,8​ por lo cual Loki termina viajando a través del tiempo, alterando la historia humana tratando de arreglar la línea de tiempo fracturada.
+      <p><u>Al 95% le gustó este programa de TV</u></p> <p>Año 2021</p>
+
+      <center><h4>What if...?</h4>
+        <img src="imagenes/whatif.jpg" width="150 px" height="200 px"></center>
+       <p> <b>La serie explora lo que sucedería si los principales momentos de las películas del Universo Cinematográfico de Marvel ocurrieran de manera diferente.
+    </p>  <p><u>Al 88% le gustó este programa de TV</u></p> <p>Año 2021</p>
+
+
+ <center><h4>Shang-Shi y la leyenda de los diez anillos</h4>
+ <img src="imagenes/shang-chi-diez-anillos-poster-fotogramas-1630588842.jpg" width="150 px" height="200 px"></center>
+<p> <b>El maestro de artes marciales Shang-Chi se enfrenta al pasado que creía haber dejado atrás cuando se ve envuelto en la red de la misteriosa organización de los Diez Anillos.
+     <p><u>Al 93% le gustó esta película</u></p> <p>Año 2021</p>
+
+<center><h4>Eternals</h4> 
+<img src="imagenes/eternals.jpeg" width="220 px" height="200 px"></center>
+<p> <b>Los Eternos son una raza de seres inmortales con poderes sobrehumanos que han vivido en secreto en la Tierra durante miles de años. Aunque nunca han intervenido, ahora una amenaza se cierne sobre la humanidad.
+    <p><u>Al 79% le gustó esta película</u></p> <p>Año 2021</p>
+       
+ <center>  <h2 id="p3">Próximos estrenos</h2></center> 
+
+ <h4>Spiderman: No way home</h4>
+ <img src="imagenes/spiderman no wy.jpg" width="170 px" height="200 px">
+ <p>Estreno: Diciembre 17 de 2021</p>
+
+ <h4>Ms. Marvel</h4>
+ <img src="imagenes/msmarvel.jpg" width="250 px" height="200 px">
+ <p>Estreno: 2022</p>
+
+ <h4>Doctor Strange in the multiverse of madness</h4>
+ <img src="imagenes/Doctor_Strange_2_(cropped).jpg" width="250 px" height="200 px">
+ <p>Estreno: 6 de mayo de 2022</p>
+
+ <h4>Thor: Love and thunder</h4>
+ <img src="imagenes/ThorLoveandThunder.png" width="250 px" height="200 px">
+ <p>Estreno: 2022</p>
+
+ <h4>Black Panther 2: Wakanda Forever</h4>
+ <img src="imagenes/black-panther-2_pwhq.jpg" width="250 px" height="200 px">
+ <p>Estreno: 11 de noviembre de 2022</p>
+
+ <h4>The Marvels</h4>
+ <img src="imagenes/The_Marvels_Logo.png" width="250 px" height="200 px">
+ <p>Estreno: 17 de febrero de 2023</p>
+
+ <h4>Guardians of the galaxy Vol.3</h4>
+ <img src="imagenes/Guardians_of_the_Galaxy_Vol._3_Logo.png" width="250 px" height="200 px">
+ <p>Estreno: 23 de mayo 2023</p>
+
+ <h4>Ant man and the wasp: Quantumania</h4>
+ <img src="imagenes/Ant-Man_and_the_Wasp_Quantumania_-_Primer_afiche.png" width="250 px" height="200 px">
+ <p>Estreno: 28 de julio 2023</p>
+
+ <h4>She hulk</h4>
+ <img src="imagenes/she.jpg" width="250 px" height="200 px">
+ <p>Estreno: 2022</p>
+
+ <h4>Moon Knight</h4>
+ <img src="imagenes/Moon_Knight_-_Serie_de_televisión_Logo.png" width="250 px" height="200 px">
+ <p>Estreno: 2022</p>
+
+ <h4>Secret Invasion</h4>
+ <img src="imagenes/secret-invasion-1621099799.jpg" width="250 px" height="200 px">
+ <p>Estreno: 2022</p>
+
+ <h4>I am Groot</h4>
+ <img src="imagenes/i am.png" width="250 px" height="200 px">
+ <p>Estreno: 2022</p>
+
+ <h4>Blade</h4>
+ <img src="imagenes/nueva-pelicula-de-blade-marvel-studios-960x720.jpg" width="250 px" height="200 px">
+ <p>Estreno: ---</p>
+
+ <h4>Los 4 fantásticos</h4>
+ <img src="imagenes/4.jpg" width="250 px" height="200 px">
+ <p>Estreno: ---</p>
+ 
+ <p style="text-align: center; color: white;" ><a href="#VI"> Volver al inicio</a></p>
+</b>
+
+<script>
+
+    function Dia () {
+var elemento = document.getElementById('ja');
+elemento.classList.add ("estilosDia") 
+    }
+
+    function Noche () {
+var element = document.getElementById('ja');
+element.classList.remove("estilosDia")
+    }
+
+</script>
+ 
+</body>
+</html>
