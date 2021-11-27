@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lección 16</title>
+    <style>
+        .estiloUno {
+background-color: red;
+font-size: 22px;
+border: 1px solid black;
+        }
+
+        .estiloDos {
+background-color: green;
+font-size: 50px;
+border: 1px solid blue;
+        }
+
+        .estilosNoche {
+            background-color: black;
+            color: white;
+        }
+
+    </style>
+</head>
+<body id="cuerpo">
+    <p id= "Frase">
+...
+    </p>
+
+    <a onclick="cambiarTexto('Pikachu')">Haz click aquí - Pikachu</a></br>
+    <a onclick="cambiarTexto('Hola')">Haz click aquí - Hola</a></br>
+    <a onclick="cambiarTexto('Endgame')">Haz click aquí - Endgame</a></br>
+</br>
+</br>
+</br>
+</br>
+</br>
+<p id="numero">0</p>
+<button onclick="sumaUno()">Sumar uno</button>
+
+
+<a style"background-color:blue onmouseenter="restaUno()">Restar uno</a>
+
+<div id="divUno">Etiqueta para agregar estilo</div>
+<button onclick="agregarEstiloUno()">Agregar estilo</button>
+<p onclick="agregarEstiloDos()">Agregar estilo dos</p>
+<button onclick="quitarEstiloUno()">Quitar 1</button>
+<button onclick="quitarEstiloDos()">Quitar 2</button>
+<button onclick="estilosNoche()">Cambiar a estilo de noche</button>
+
+
+   <script>
+        var numero= 0
+        function cambiarTexto(texto){
+            document.getElementById("Frase").innerHTML = texto;
+        }
+
+        function sumaUno(){
+            numero= numero + 1;
+            document.getElementById("numero").innerHTML = numero;
+        }
+
+        function restaUno(){
+            numero= numero - 1;
+            document.getElementById("numero").innerHTML = numero;
+        }
+
+        function agregarEstiloUno(){
+            var elemento = document.getElementById("divUno")
+            elemento.classList.add("estiloUno") 
+        }
+
+        function agregarEstiloDos(){
+            var elemento = document.getElementById("divUno")
+            elemento.classList.add("estiloDos") 
+        }
+
+        function quitarEstiloUno(){
+            var elemento = document.getElementById("divUno");
+            elemento.classList.remove("estiloUno");
+        }
+        function quitarEstiloDos(){
+            var elemento = document.getElementById("divUno");
+            elemento.classList.remove("estiloDos");
+        }
+
+        function estilosNoche() {
+            var elemento= document.getElementsByTagName("cuerpo");
+            elemento.classList.add("estilosNoche");
+        }
+    </script>
+</body>
+</html>
