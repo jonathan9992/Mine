@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lección 12</title>
+</head>
+<body>
+    
+    <script>
+          console.log("Lección 12");
+ //       var a= 100
+   //     var b= 200
+
+     //   console.log(a !=b);
+
+       // console.log(a == a)
+
+    //   var a= 10;
+      // var b= 20;
+       //var c= 30;
+       //var d= 30;
+
+      // if (a == a) {
+       //    console.log("Ejemplo 1: Las variables tienen el mismo valor");
+       //};
+
+       //if (a == b) {
+         //  console.log("Ejemplo 2:Las variables tienen el mismo valor");
+       //};
+
+       //if  (c != c) {
+        //console.log("Ejemplo 2:Las variables son diferentes");
+       //}
+
+       //if  (a != a) {
+        //console.log("Ejemplo 4:Las variables son diferentes");
+       //}
+
+       //if  (a != b) {
+        //console.log("Ejemplo 5:Las variables son diferentes");
+       //}
+
+     //  var vida_personaje_fortnite = 0;
+
+       //if (vida_personaje_fortnite > 0){
+         //  alert("Sigue con vida");
+       //} else {
+         //  alert("Game over");
+       //}
+
+   //  var vida_personaje = 0;
+    // var pocion_resucitar = 0;
+
+    // if(vida_personaje > 0 || pocion_resucitar > 0){
+      //   alert("Sigue vivo");
+     //} else {
+       //  alert("Game over");
+     //}
+
+//var vida_personaje = 100;
+//var armadura = 0;
+
+//if (vida_personaje > 0 && armadura > 0) {
+  //  alert("Sigue vivo");
+//} else {
+  //  alert("Game over");
+//}
+
+//var hora_dia = 17;
+
+//if (hora_dia >= 5 && hora_dia <= 11) {
+  //  console.log ("Buenos días");
+//} else if (hora_dia >= 12 && hora_dia <== 18) {
+  //  console.log("Buenas tardes");
+//} else {
+ //   console.log ("Buenas noches");
+//}
+
+
+var vida_personaje = 0;
+var pocion_regeneracion = 0;
+ 
+if(vida_personaje >= 1 ) {
+    console.log("Personaje sigue vivo");
+    if(vida_personaje > 5 ){
+        alert("Esta saludable");
+    }
+else if (vida_personaje <= 5 ) {
+    alert("Estás a punto de morir");
+}
+} else {
+    if ( pocion_regeneracion >= 1){
+        alert ("Se uso poción de resucitacioón");
+        vida_personaje = 100;
+        pocion_regeneracion -= 1;
+    } else {
+    console.log ("Game over");
+}
+}
+
+console.log("Vida del personaje: ", vida_personaje);
+console.log("Pocion de regeneración:" , pocion_regeneracion);
+
+
+    </script>
+</body>
+ </html>
